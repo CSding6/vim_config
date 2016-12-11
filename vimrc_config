@@ -51,23 +51,23 @@ let g:syntastic_check_on_wq = 0
 " vim-colors-solarized
 "syntax enable
 
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
+" if has('gui_running')
+"     set background=light
+" else
+"     set background=dark
+" endif
 
-let g:solarized_termcolors=   256
-let g:solarized_termtrans =   1
-let g:solarized_degrade   =   1
-let g:solarized_bold      =   0
-let g:solarized_underline =   0
-let g:solarized_italic    =   0
-let g:solarized_contrast  =   "normal"
-let g:solarized_visibility=   "normal"
+" let g:solarized_termcolors=   256
+" let g:solarized_termtrans =   1
+" let g:solarized_degrade   =   1
+" let g:solarized_bold      =   0
+" let g:solarized_underline =   0
+" let g:solarized_italic    =   0
+" let g:solarized_contrast  =   "normal"
+" let g:solarized_visibility=   "normal"
 
 
-colorscheme solarized
+" colorscheme solarized
 
 
 " -----------------------------------------------------------------------------------
